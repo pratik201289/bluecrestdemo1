@@ -3,9 +3,6 @@ package com.bluecrestwellness.www.propertyreader;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-/**
- * Created by Jay Vaghani
- */
 public class PropertyReader {
     /*
     Rules for implementing singleton design pattern
