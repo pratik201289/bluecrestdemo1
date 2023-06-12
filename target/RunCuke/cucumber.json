@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5836445800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should navigate to about us page successfully",
+        "description": "",
+        "id": "homepage-test;user-should-navigate-to-about-us-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1061500800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3339389100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on accept link",
+            "match": {
+              "location": "HomePageSteps.iClickOnAcceptLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3386324900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on close popup screen",
+            "match": {
+              "location": "HomePageSteps.iClickOnClosePopupScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2224662100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on about us link",
+            "match": {
+              "location": "HomePageSteps.iClickOnAboutUsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39774200,
+              "error_message": "org.junit.ComparisonFailure: THe Digital text is not displayed expected:\u003cAbout U[s]\u003e but was:\u003cAbout U[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.bluecrestwellness.www.steps.HomePageSteps.iShouldNavigateToAboutUsPageSuccessfully(HomePageSteps.java:29)\r\n\tat ✽.Then I should navigate to about us page successfully(HomePage.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I should navigate to about us page successfully",
+            "match": {
+              "location": "HomePageSteps.iShouldNavigateToAboutUsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HomePage Test",
+    "description": "As user I want to verify the About Us Page",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
